@@ -17,22 +17,27 @@
    <property name="parallax" value="0.25"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAB4GD3gAAE=
+   eJztzjENACAMAMEubODfEjKQAgMWmoZwl/z+EQAAAAAAAPC+GbGqHwAAAAAAAAAgQz+N6gn4RLtl2nI6Acw=
   </data>
  </layer>
  <layer name="buildings" width="220" height="18">
   <data encoding="base64" compression="zlib">
-   eJzt07EJACAUQ0FxWfffwF4+CoIp5A5SpX6tAQAAAAA/GcWAN/QGOXqDnF1v1adLuKc3yNEb5OgNctaG+uHXG2TpDQAAgJ0JsQ8gMw==
+   eJzt2bEJgDAURdG/oW6RWdzCBd1BAhGCJGgRU8g58KrUl18kAgAAAAD4k1Ttbi1bXgx4lhq76A3G0hvMozeYp9XbVqY3GMt9g3lavR0Re37TG4zVay3TG3yr7q2n918HAAAA2Qn87DCj
   </data>
  </layer>
  <layer name="Street" width="220" height="18">
   <data encoding="base64" compression="zlib">
-   eJzt01sKglAUQNH7UX81p4bWRJxDNYWeM+g5haAhdCSC8CelROWuBZsjegVBTkoAAAAAAAAAAAB5KVKaF11/BGRgFbu2iLl8XQMtKXdtHXMTbaNdtI8ONUsNzlbfgyG51uzxZR6jU3SOLh/PbjVn0/Pv+Yt7SjNlVVL7QakH+55FXf9n8jEaYDBU4543iaaVe//2BPSelxw=
+   eJzt08sJAjEYReG70J32ZCmWYiPTg9qCzw58tiBYgn+EgSELyaAmk+R8cIg4IwTkSgAAAAAAAABKdJTmqe8A1IK9AfGwNyAe9gbEw96AeLp7a6RFk/AuQOnavR3sXNq5stZJbwSUy+3NbW1jn7fWztrrvT/3LCj1eNf/HZCTW2DPD+fdOlln62JdvWchZ9/32/MbD2lGVSX6f4AzgL1XUer/GfUYZRiQq/HAm1hT77tfewGQV6BH
   </data>
  </layer>
  <layer name="signs" width="220" height="18">
   <data encoding="base64" compression="zlib">
-   eJzt08ENgCAQRcEthR60B9qkHMvSCowJYYkwc91k8y8vAgAAAAAAAP7hiiizN8Au3np7bi1vCaxPb5BHb5BndG9n7wNYyOjejt4HwGd19gAAAADS3HkADSc=
+   eJzt0zERACAMALF6Ag/YRA6ysNChVwYSBb98BAAAAAAAAADknYj9ugF+4Tfo4zfoU/HbLOiAH1T8Ngo6gJz1OgAAAIA2F8eQB7c=
+  </data>
+ </layer>
+ <layer name="building details" width="220" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEOgzAQRUEoqAIcgQBXIMn9j5ZfQImoLATMSE926WblrSoAAAAA4ImG+vgOAAB77JMA3Nkr/1mbutT726CIbW985xzTlObaPgklLZmvT/qmn1kDAAC4nDZ1Zz8CHqJZK+kPR5ECrg==
   </data>
  </layer>
  <objectgroup color="#0007a4" name="nodes" width="220" height="18">
@@ -147,7 +152,7 @@
   <object x="4687" y="216" width="299" height="13"/>
   <object x="5025" y="298" width="29" height="9"/>
   <object x="848" y="297" width="29" height="9"/>
-  <object x="4513" y="242" width="35" height="14"/>
+  <object x="4492" y="265" width="19" height="13"/>
   <object x="2499" y="257" width="91" height="13"/>
   <object x="2497" y="121" width="344" height="21"/>
   <object x="2977" y="314" width="46" height="14"/>
@@ -177,6 +182,8 @@
    <polygon points="0,0 -26,0 -133,-30 -133,-19 -26,8 0,8"/>
   </object>
   <object x="5117" y="240" width="133" height="13"/>
+  <object x="4491" y="193" width="19" height="13"/>
+  <object x="4490" y="121" width="19" height="13"/>
  </objectgroup>
  <objectgroup name="floor" width="220" height="18">
   <object x="1" y="331" width="5279" height="100"/>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="220" height="18" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="blue" value="249"/>
+  <property name="floor" value="12"/>
+  <property name="green" value="154"/>
+  <property name="offset" value="3"/>
+  <property name="red" value="125"/>
+  <property name="soundtrack" value="greendale"/>
+  <property name="title" value="City"/>
+ </properties>
+ <tileset firstgid="1" name="city" tilewidth="24" tileheight="24">
+  <image source="../images/tilesets/city.png" width="480" height="480"/>
+ </tileset>
+ <layer name="bbackground_city" width="220" height="18">
+  <properties>
+   <property name="parallax" value="0.55"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAB4GD3gAAE=
+  </data>
+ </layer>
+ <layer name="city_little_clouds" width="220" height="18">
+  <properties>
+   <property name="parallax" value="0.80"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAQBMFrx/6bsAwLMTAxNXsRYQY23wQAAAAAAAD+15Px+oGkSZebO+pN6RAAAAAAAABQawGXbqEG
+  </data>
+ </layer>
+ <layer name="Background_buildings" width="220" height="18">
+  <properties>
+   <property name="parallax" value="0.95"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt07EJACAMRUEdzN1sHUJn1RkkCJE7ePVvklIAAAAAAAAAAO4NRdZfbZHXUkjz/Nt8tEVereq3IJL7AwAAAODWBnuznmE=
+  </data>
+ </layer>
+ <layer name="buildings" width="220" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKwyAUhGE9Qs/R3CW9Ra7lBb1BA0WqNJAsnAbNi/wfzFLwLYZxDpY9fH2seOcofy9vrAhCMI5VSEtBSOmO8nf6Bgus7FsQwr7hrti3awQhGEfrfZsrkgQhlvbtlVNz57x5p9yLcbTet5Z9s7Bv9A0K9u0c+gaFum+Tr09idd+e/hvlnsn/3hX0DQp13yz17cy+0TdcgX2jb+iHfaNv6Id9+69vMVeBvkFxx31Leu3b6vZ9i5sa0DegrVhRgyUHAAAAAIAjH8COyEw=
+  </data>
+ </layer>
+ <layer name="Street" width="220" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1dsJwkAQheER9E17shSLUJ991Wq8lOAtHXhtQbAEZwmBIAnshGQ3mv+Dw4YwO2RJhogAAAAAAAAAAAAAAAAglkRkEvsZ0B1JQ/XWvrEwbwhp2mum3tp3pvVz4x5nK7JY67pJr2Vn3J+ft6p93Fmt50U3LY3fiW99lb4r456zztpe14PmqDml90yyeSvqk3gmmzff+l/598PP80/zKMhFc9XcNPeSGpd3bv3u+SzpE/u8Wcq8RMakUxHSfACnBfPeicR+z2iHfo0ZakY19wyREM8NOAMSJB//NuPk
+  </data>
+ </layer>
+ <layer name="lines" width="220" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt2M0NgkAQhuGhAukBLnrVeNOrZ62AUijFGowF7E3LoBQnQiIH3B9A5Od9kgmRLBsm2S8ZFAHQ1lMk+/c7AEtB3oDhkDf4iiPJV2WJrXTdJKWRmETL1V+XXskbfOl5zJOyxFbpRPMWl1kzrv669EregA/NQ1G/OtZmLfYPfgbz4Dsfjn1OTANnQFtv5A2/4jsfjn1OjANnQFtv5A3wp+f5GrA2a7hX+O5D3rB0IXn78nzhuw95w9KRN2A4bfL2qDKw1m+4zec7zrmPKzu7Fs8AU3LX86xnWppqH0leXd+/da251c7/Qe8fe8zbtvn9jEcbwOydNWuXHv+DPfW3FQAAAABg5F7651dR
+  </data>
+ </layer>
+ <layer name="building details" width="220" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt2G1OwkAQBuDdH4ZSqRegVPEKiufraYQzgGcQzyCcAD9/+sa1sSk7y4IQ2933SSY7m26TmWTTTKoUEREREREREXVBX//maS3v6e2zXZYIffYD65PabVS7b0UtHwZ2D3Ohz1FgfRIRhaqalVJhfkob3/Oe8Cxp0Xe/2ZO0usQyN9PfbRAviFfEG+Id8YH4tJytZqVCmJ+Kxv0aCs/yFt3DZk/S6hLL3Exx2+dbQdQWM6XKKeIe+dTsrWwzVuaYJ6v9OdaBNmcv9HH/2/nWLpHmx8zSqyQR+vR5l+LzgPu6QMyRL8zeyjZjjR3zZLW/xHqlzdlrfdz/dr61S6T5cWzpVZILffq8S/F5wn1dIh6RL83ey51W5UR/r043eH6L8Dm7r0Nr32VyQJ2n7JPCscZ9XSGeka/MvjNqtZddq52IiIiIyMcAkf13EUSROPuJU/oCTgk+0g==
+  </data>
+ </layer>
+ <objectgroup color="#0007a4" name="nodes" width="220" height="18">
+  <object name="main" type="door" x="4285" y="283" width="29" height="44">
+   <properties>
+    <property name="level" value="hallway"/>
+    <property name="to" value="hallway1"/>
+   </properties>
+  </object>
+  <object type="info" x="3702" y="279" width="108" height="49">
+   <properties>
+    <property name="info" value="The Seger Towers"/>
+   </properties>
+  </object>
+  <object type="airplane" x="3807" y="359" width="168" height="24"/>
+ </objectgroup>
+ <objectgroup color="#a40098" name="platform" width="220" height="18">
+  <object x="4491" y="252" width="19" height="13"/>
+  <object x="4490" y="180" width="19" height="13"/>
+  <object x="4490" y="108" width="19" height="13"/>
+  <object x="4563" y="109" width="19" height="13"/>
+  <object x="4635" y="181" width="19" height="13"/>
+  <object x="4563" y="180" width="19" height="13"/>
+  <object x="4635" y="251" width="19" height="13"/>
+  <object x="4635" y="109" width="19" height="13"/>
+  <object x="4455" y="93" width="242" height="7"/>
+  <object x="4274" y="180" width="19" height="13"/>
+  <object x="4020" y="165" width="311" height="6"/>
+  <object x="4227" y="180" width="19" height="13"/>
+  <object x="4275" y="253" width="19" height="13"/>
+  <object x="4178" y="181" width="19" height="13"/>
+  <object x="4131" y="181" width="19" height="13"/>
+  <object x="4082" y="180" width="19" height="13"/>
+  <object x="4082" y="252" width="19" height="13"/>
+  <object x="4179" y="252" width="19" height="13"/>
+  <object x="4130" y="252" width="19" height="13"/>
+ </objectgroup>
+ <objectgroup name="block" width="220" height="18">
+  <object x="1" y="331" width="5279" height="100"/>
+ </objectgroup>
+</map>
